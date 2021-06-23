@@ -17,7 +17,7 @@
 }
 
 .about {
-  background-image: url();
+  background-image: url(./image/images-main/about-myself.svg);
   background-size: cover;
   background-position: top right;
 }

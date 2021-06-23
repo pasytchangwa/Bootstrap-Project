@@ -4,14 +4,15 @@
   padding: 0;
 }
 
-.headline-container{
-  background-image: url(image/images-main/headebg-desktop.svg);
-  background-size: cover;
+header {
+  height: 100vh;
+  background-image: url(image/images-main/headershapes-desktop.svg);
+  background-size: contain;
   background-position: bottom left;
 }
 
-.headline{
-  background-image: url(image/images-main/headershapes-desktop.svg);
+.headline-container{
+  /* background-image: url(image/images-main/headebg-desktop.svg); */
   background-size: cover;
   background-position: bottom left;
 }

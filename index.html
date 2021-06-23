@@ -12,83 +12,428 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio Home Page</title>
 </head>
-
 <body>
-  <header class="container-lg">
-    <div class="row">
-      <div class="col-lg-6">
-        <img src="./image/images-head/logo.png" alt="My Logo">
-      </div>
-      <div class="col-lg-6">
-        <nav class="nav">
+  <header class="container-lg pb-5">
+    <div class="column">
+      <div class="bg-light h-5 fixed-top col-lg-12 d-flex flex-row justify-content-between px-5 py-4 mb-5">
+        <div><img src="./image/images-head/logo.png" alt="My Logo"></div>
+        <div class="d-lg-none"><img src="./image/images-head/union.png" alt="nav bar"></div>
+        <nav class="nav d-none d-lg-flex">
           <a class="nav-link" href="#">Portfolio</a>
           <a class="nav-link" href="#">About</a>
           <a class="nav-link" href="#">Contact</a>
         </nav>
       </div>
-    </div>
-    <div class="row" >
-      <div class="col-lg-12">
-        <h1>We are Sheyla and Sylvestre <br> Glad to see you!</h1>
+      <div class="col-lg-12 px-5 py-5" >
+        <h1 class="mt-5">We are micronauts <br> Glad to see you!</h1>
         <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work
           and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-        <h2>LET’S CONNECT</h2>
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#"><img src="./image/images-main/twitter.svg" alt="twitter"></a>
+        <h4 class="text-primary">LET’S CONNECT</h4>
+        <ul class="list-unstyled d-flex align-items-center">
+          <li class="mx-2">
+            <a href="#"><img src="./image/images-main/twitter.svg" alt="twitter"></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><img src="./image/images-main/linkedin.svg" alt="Linked"></a>
+          <li class="mx-2">
+            <a href="#"><img src="./image/images-main/linkedin.svg" alt="Linked"></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><img src="./image/images-main/medium.svg" alt="Medium"></a>
+          <li class="mx-2">
+            <a href="#"><img src="./image/images-main/medium.svg" alt="Medium"></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><img src="./image/images-main/github.svg" alt="github icon"></a>
+          <li class="mx-2">
+            <a href="#"><img src="./image/images-main/github.svg" alt="github icon"></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><img src="./image/images-main/angellist.svg" alt="AngelList-icon"></a>
+          <li class="mx-2">
+            <a href="#"><img src="./image/images-main/angellist.svg" alt="AngelList-icon"></a>
           </li>
         </ul>
       </div>
     </div>
   </header>
-  <main class="container-lg column gb-142px" style="width: 80%;">
-    <section class="col-lg" style="height: 100%;">
-      <div class="row">
-        <div class="col">
-          <img width="100%" src="./image/images-main/snapshootportfolio5.png" alt="Project image">
+  <main class="container">
+    <ul class="cards-section w-100%">
+      <li class="single-card d-flex flex-lg-row flex-column g-lg-1% g-0 p1 mb-lg-5 mt-5">
+        <div class="col-lg-6 col-0 m-2">
+          <img class="w-100" src="./image/images-main/snapshootportfolio5.png" alt="Project image">
         </div>
-        <div class="col card">
+        <div class="col-lg-6 col-0 card m-2">
           <div class="card-body">
-            <h4 class="card-title">Tonic</h4>
-            <ul class="nav">
-              <li class="nav-item">
+            <h4 class="card-title fw-bold">Tonic</h4>
+            <ul class="list-unstyled d-flex align-items-center">
+              <li class="mx-2 fw-bold">
                 Canopy
               </li>
-              <li class="nav-item">
-                <img class="mr-20px" src="./image/images-main/Counter.png" alt="Counter">
-              </li>
-              <li class="nav-item">
-                Back end
-              </li>
-              <li class="nav-item">
+              <li class="mx-2 fw-bold">
                 <img src="./image/images-main/Counter.png" alt="Counter">
               </li>
-              <li class="nav-item">
+              <li class="mx-2 fw-light">
+                Back end
+              </li>
+              <li class="mx-2 fw-bold">
+                <img src="./image/images-main/Counter.png" alt="Counter">
+              </li>
+              <li class="mx-2 fw-light">
                 2015
               </li>
             </ul>
             <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.
             </p>
-            <span class="badge bg-secondary text-info">html</span>
-            <span class="badge bg-secondary text-info">css</span>
-            <span class="badge bg-secondary text-info">javascript</span>
-            <h3></h3><button type="submit" class="btn btn-primary">See Project</button></h3>
+            <div class="technologies mb-4">
+             <span class="badge bg-secondary text-info">html</span>
+             <span class="badge bg-secondary text-info">css</span>
+             <span class="badge bg-secondary text-info">javascript</span>
+            </div>
+            <h3></h3><button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#snapshootportfolio5">See Project</button></h3>
+          </div>
+        </div>
+       </li>
+       <!-- Modal -->
+         <div class="modal fade" id="snapshootportfolio5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel">Tonic</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <ul class="list-unstyled d-flex align-items-center">
+              <li class="mx-2 fw-bold">
+                Canopy
+              </li>
+              <li class="mx-2 fw-bold">
+                <img src="./image/images-main/Counter.png" alt="Counter">
+              </li>
+              <li class="mx-2 fw-bold">
+                Back end
+              </li>
+              <li class="mx-2 fw-bold">
+                <img src="./image/images-main/Counter.png" alt="Counter">
+              </li>
+              <li class="mx-2 fw-light">
+                2015
+              </li>
+            </ul>
+            <img class="w-100" src="./image/images-main/snapshootportfolio5.png" alt="Project image">
+            <div class="description d-lg-flex">
+          <p class="col-lg-7 col-12 pe-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Similique sequi est itaque nesciunt ad aliquam, dolor aut
+              labore explicabo? Recusandae laborum perferendis eum vero
+             reprehenderit. Debitis fuga reprehenderit totam veritatis.
+             Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Similique sequi est itaque nesciunt ad aliquam, dolor aut
+              labore explicabo? Recusandae laborum perferendis eum vero
+              reprehenderit. Debitis fuga reprehenderit totam veritatis.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <div class="col-lg-4 col-12">
+            <div class="technologies mb-4">
+             <span class="badge bg-primary text-info">html</span>
+             <span class="badge bg-primary text-info">css</span>
+             <span class="badge bg-primary text-info">javascript</span>
+             <span class="badge bg-primary text-info">github</span>
+              <span class="badge bg-primary text-info">ruby</span>
+              <span class="badge bg-primary text-info">Bootstrap</span>
+            </div>
+            <div class="d-flex my-3 justify-content-center">
+              <button class="btn btn-outline-primary me-1">See Live</button>
+              <button class="btn btn-outline-primary">See Source</button>
+            </div>
           </div>
         </div>
       </div>
-      <div class="row">
+    </div>
+  </div>
+</div>
+<!-- End of modal -->
+      <li class="single-card d-flex flex-lg-row flex-column g-1% p1 mb-5 mt-5">
+        <div class="col-lg-6 card m-2">
+          <div class="card-body">
+            <h4 class="card-title fw-bold">Multi-Post Stories</h4>
+            <ul class="list-unstyled d-flex align-items-center">
+              <li class="mx-2 fw-bold">
+                Facebook
+              </li>
+              <li class="mx-2 fw-light">
+                <img src="./image/images-main/Counter.png" alt="Counter">
+              </li>
+              <li class="mx-2 fw-light">
+                Full Stack Dev
+              </li>
+              <li class="mx-2 fw-bold">
+                <img src="./image/images-main/Counter.png" alt="Counter">
+              </li>
+              <li class="mx-2 fw-light">
+                2015
+              </li>
+            </ul>
+            <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.
+            </p>
+            <div class="technologies mb-4">
+             <span class="badge bg-secondary text-info">html</span>
+             <span class="badge bg-secondary text-info">Ruby on rails</span>
+            <span class="badge bg-secondary text-info">css</span>
+            <span class="badge bg-secondary text-info">javascript</span>
+            </div>
+            <h3></h3><button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#snapshootportfolio4">See Project</button></h3>
+          </div>
+        </div>
+        <div class="col-lg-6 m-2 order-lg-2 order-1">
+          <img class="w-100" src="./image/images-main/snapshootportfolio4.png" alt="Project image">
+        </div>
+       </li>
+       <!-- Modal -->
+         <div class="modal fade" id="snapshootportfolio4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel">Multi-Post Stories</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <ul class="list-unstyled d-flex align-items-center">
+              <li class="mx-2 fw-bold">
+                Facebook
+              </li>
+              <li class="mx-2 fw-light">
+                <img src="./image/images-main/Counter.png" alt="Counter">
+              </li>
+              <li class="mx-2 fw-light">
+                Full Stack Dev
+              </li>
+              <li class="mx-2 fw-bold">
+                <img src="./image/images-main/Counter.png" alt="Counter">
+              </li>
+              <li class="mx-2 fw-light">
+                2015
+              </li>
+            </ul>
+            <img class="w-100" src="./image/images-main/snapshootportfolio4.png" alt="Project image">
+            <div class="description d-lg-flex">
+          <p class="col-lg-7 col-12 pe-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Similique sequi est itaque nesciunt ad aliquam, dolor aut
+              labore explicabo? Recusandae laborum perferendis eum vero
+             reprehenderit. Debitis fuga reprehenderit totam veritatis.
+             Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Similique sequi est itaque nesciunt ad aliquam, dolor aut
+              labore explicabo? Recusandae laborum perferendis eum vero
+              reprehenderit. Debitis fuga reprehenderit totam veritatis.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <div class="col-lg-4 col-12">
+            <div class="technologies mb-4">
+             <span class="badge bg-primary text-info">html</span>
+             <span class="badge bg-primary text-info">css</span>
+             <span class="badge bg-primary text-info">javascript</span>
+             <span class="badge bg-primary text-info">github</span>
+              <span class="badge bg-primary text-info">ruby</span>
+              <span class="badge bg-primary text-info">Bootstrap</span>
+            </div>
+            <div class="d-flex my-3 justify-content-center">
+              <button class="btn btn-outline-primary me-1">See Live</button>
+              <button class="btn btn-outline-primary">See Source</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of modal -->
+
+<li class="single-card d-flex flex-lg-row flex-column g-1% p1 mb-5 mt-5">
+        <div class="col-lg-6 m-2">
+          <img class="w-100" src="./image/images-main/snapshootportfolio.png" alt="Project image">
+        </div>
+        <div class="col-lg-6 card m-2">
+          <div class="card-body">
+            <h4 class="card-title fw-bold">Facebook 360</h4>
+            <ul class="list-unstyled d-flex align-items-center">
+              <li class="mx-2 fw-bold">
+                Fcebook
+              </li>
+              <li class="mx-2 fw-bold">
+                <img src="./image/images-main/Counter.png" alt="Counter">
+              </li>
+              <li class="mx-2 fw-light">
+                Full Stack Dev
+              </li>
+              <li class="mx-2 fw-bold">
+                <img src="./image/images-main/Counter.png" alt="Counter">
+              </li>
+              <li class="mx-2 fw-light">
+                2015
+              </li>
+            </ul>
+            <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.
+            </p>
+            <div class="technologies mb-4">
+             <span class="badge bg-secondary text-info">html</span>
+            <span class="badge bg-secondary text-info">Ruby on rails</span>
+            <span class="badge bg-secondary text-info">css</span>
+            <span class="badge bg-secondary text-info">javascript</span>
+            </div>
+            <h3></h3><button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#snapshootportfolio">See Project</button></h3>
+          </div>
+        </div>
+       </li>
+       <!-- Modal -->
+         <div class="modal fade" id="snapshootportfolio" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel">Facebook 360</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <ul class="list-unstyled d-flex align-items-center">
+              <li class="mx-2 fw-bold">
+                Facebook
+              </li>
+              <li class="mx-2 fw-bold">
+                <img src="./image/images-main/Counter.png" alt="Counter">
+              </li>
+              <li class="mx-2 fw-bold">
+                Full Stack Dev
+              </li>
+              <li class="mx-2 fw-bold">
+                <img src="./image/images-main/Counter.png" alt="Counter">
+              </li>
+              <li class="mx-2 fw-light">
+                2015
+              </li>
+            </ul>
+            <img class="w-100" src="./image/images-main/snapshootportfolio.png" alt="Project image">
+            <div class="description d-lg-flex">
+          <p class="col-lg-7 col-12 pe-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Similique sequi est itaque nesciunt ad aliquam, dolor aut
+              labore explicabo? Recusandae laborum perferendis eum vero
+             reprehenderit. Debitis fuga reprehenderit totam veritatis.
+             Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Similique sequi est itaque nesciunt ad aliquam, dolor aut
+              labore explicabo? Recusandae laborum perferendis eum vero
+              reprehenderit. Debitis fuga reprehenderit totam veritatis.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <div class="col-lg-4 col-12">
+            <div class="technologies mb-4">
+             <span class="badge bg-primary text-info">html</span>
+             <span class="badge bg-primary text-info">css</span>
+             <span class="badge bg-primary text-info">javascript</span>
+             <span class="badge bg-primary text-info">github</span>
+              <span class="badge bg-primary text-info">ruby</span>
+              <span class="badge bg-primary text-info">Bootstrap</span>
+            </div>
+            <div class="d-flex my-3 justify-content-center">
+              <button class="btn btn-outline-primary me-1">See Live</button>
+              <button class="btn btn-outline-primary">See Source</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of modal -->
+
+<li class="single-card d-flex flex-lg-row flex-column g-1% p1 mb-5 mt-5">
+        <div class="col-lg-6 card m-2">
+          <div class="card-body">
+            <h4 class="card-title fw-bold">Uber Navigation</h4>
+            <ul class="list-unstyled d-flex align-items-center">
+              <li class="mx-2 fw-bold">
+                Uber
+              </li>
+              <li class="mx-2 fw-light">
+                <img src="./image/images-main/Counter.png" alt="Counter">
+              </li>
+              <li class="mx-2 fw-light">
+                Lead Developer
+              </li>
+              <li class="mx-2 fw-bold">
+                <img src="./image/images-main/Counter.png" alt="Counter">
+              </li>
+              <li class="mx-2 fw-light">
+                2018
+              </li>
+            </ul>
+            <p class="card-text">A daily selection of privately personalized reads; no accounts or sign-ups required.
+            </p>
+            <div class="technologies mb-4">
+             <span class="badge bg-secondary text-info">html</span>
+            <span class="badge bg-secondary text-info">css</span>
+            <span class="badge bg-secondary text-info">javascript</span>
+            </div>
+            <h3></h3><button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#snapshootportfolio2">See Project</button></h3>
+          </div>
+        </div>
+        <div class="col-lg-6 m-2 order-lg-2 order-1">
+          <img class="w-100" src="./image/images-main/snapshootportfolio2.png" alt="Project image">
+        </div>
+       </li>
+       <!-- Modal -->
+         <div class="modal fade" id="snapshootportfolio2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title" id="exampleModalLabel">Uber Navigation</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <ul class="list-unstyled d-flex align-items-center">
+              <li class="mx-2 fw-bold">
+                Uber
+              </li>
+              <li class="mx-2 fw-light">
+                <img src="./image/images-main/Counter.png" alt="Counter">
+              </li>
+              <li class="mx-2 fw-light">
+                Lead Developer
+              </li>
+              <li class="mx-2 fw-bold">
+                <img src="./image/images-main/Counter.png" alt="Counter">
+              </li>
+              <li class="mx-2 fw-light">
+                2018
+              </li>
+            </ul>
+            <img class="w-100" src="./image/images-main/snapshootportfolio2.png" alt="Project image">
+            <div class="description d-lg-flex">
+          <p class="col-lg-7 col-12 pe-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Similique sequi est itaque nesciunt ad aliquam, dolor aut
+              labore explicabo? Recusandae laborum perferendis eum vero
+             reprehenderit. Debitis fuga reprehenderit totam veritatis.
+             Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Similique sequi est itaque nesciunt ad aliquam, dolor aut
+              labore explicabo? Recusandae laborum perferendis eum vero
+              reprehenderit. Debitis fuga reprehenderit totam veritatis.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+          <div class="col-lg-4 col-12">
+            <div class="technologies mb-4">
+             <span class="badge bg-primary text-info">html</span>
+             <span class="badge bg-primary text-info">css</span>
+             <span class="badge bg-primary text-info">javascript</span>
+             <span class="badge bg-primary text-info">github</span>
+              <span class="badge bg-primary text-info">ruby</span>
+              <span class="badge bg-primary text-info">Bootstrap</span>
+            </div>
+            <div class="d-flex my-3 justify-content-center">
+              <button class="btn btn-outline-primary me-1">See Live</button>
+              <button class="btn btn-outline-primary">See Source</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End of modal -->
+
+
+      <!-- <div class="row">
         <div class="col card">
           <div class="card-body">
             <h4 class="card-title">Multi-Post Stories</h4>
@@ -189,8 +534,8 @@
           <img width="100%" src="./image/images-main/snapshootportfolio2.png" alt="Project image">
         </div>
       </div>
-     
-    </section>
+      -->
+     </ul>
     <section class="col"></section>
   </main>
 
@@ -203,7 +548,7 @@
   </div>
   <div class="row">
     <div class="col-lg">
-      <h1 class="display-3">About Myself</h1>
+      <h1 class="display-3 about">About Myself</h1>
       <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some of my
         work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.
       </p>
@@ -267,5 +612,15 @@
         </section>
       </div>
     </footer>
+
+    <script>
+    var myModal = document.getElementById('myModal')
+    var myInput = document.getElementById('myInput')
+
+    myModal.addEventListener('shown.bs.modal', function () {
+      myInput.focus()
+    })
+
+  </script>
 </body>
 </html>

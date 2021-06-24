@@ -9,7 +9,7 @@
 *💛 Portfolio Preview image💛*
 
               Desktop version                      |                 
--------------------------------------------------- | 
+---------------------------------------------------
 ![](https://user-images.githubusercontent.com/54015740/123253767-74dff180-d4b3-11eb-99b0-3337e1a4e374.png)
 
 |              Mobile version                       |

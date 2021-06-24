@@ -1,10 +1,19 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project online link
 
-https://pasytchangwa.github.io/My-Portfolio/
+![Live Version](https://pasytchangwa.github.io/Bootstrap-Project/)
+
+---
+
+*💛 Portfolio Preview image💛*
+
+Desktop version | Mobile version
+-------------------- | ----------------------
+![capture](https://user-images.githubusercontent.com/54015740/123253767-74dff180-d4b3-11eb-99b0-3337e1a4e374.png)![capture2](https://user-images.githubusercontent.com/54015740/123253771-75788800-d4b3-11eb-8639-d57342eb6f09.png)
 
 # My Portfolio Bootstrap Version Project
+------
 
 > This project aimed at setting up a bootstrap version for mobile and desktop version of my personal portfolio and the following objectives were expected:
 
@@ -14,12 +23,12 @@ https://pasytchangwa.github.io/My-Portfolio/
 Additional description about the project and its features.
 
 ## Built With
+---
 
 - HTML and CSS framework(Bootstrap)
 
-## Getting Started
-
-**Requirements**
+## Requirements
+---
 
 - HTML and Bootstrap
 - Github Pages
@@ -27,10 +36,13 @@ Additional description about the project and its features.
 
 ## Authors
 
-👤 **Author1**
+👤 **Sylvestre Pagkeu**
 
-- Sylvestre: [@pasytchangwa](https://github.com/pasytchangwa)
-- Microverse: [@microversenic](https://github.com/microverseinc)
+- Github: [@pasytchangwa](https://github.com/pasytchangwa)
+
+👤 **Sheyla Pozo**
+
+- Github: [@sheylaPozo](https://github.com/sheylaPozo)
 
 ## 🤝 Contributing
 

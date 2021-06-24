@@ -1,7 +1,7 @@
 ![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project online link
-
+---
 ![Live Version](https://pasytchangwa.github.io/Bootstrap-Project/)
 
 ---

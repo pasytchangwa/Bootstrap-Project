@@ -1,0 +1,37 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 100vh;
+  background-image: url(image/images-main/headershapes-desktop.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.headline-container {
+  /* background-image: url(image/images-main/headebg-desktop.svg); */
+  background-size: cover;
+  background-position: bottom left;
+}
+
+.about {
+  background-image: url(./image/images-main/about-myself.svg);
+  background-size: cover;
+  background-position: top right;
+}
+
+footer {
+  background-image: url(./image/images-main/background-desktop.svg);
+  background-size: cover;
+  background-position: top left;
+}
+
+.footer-content {
+  background-image: url(./image/images-main/background-shapes.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}

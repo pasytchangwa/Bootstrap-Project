@@ -1,29 +1,39 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![Microverse](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project online link
+---
 
-https://pasytchangwa.github.io/My-Portfolio/
+[Live Version](https://pasytchangwa.github.io/Bootstrap-Project)
 
-# My Portfolio Project
+---
 
-> This project aimed at setting up a mobile and desktop version of my personal portfolio and the following objectives were expected:
+*💛 Portfolio Preview image💛*
 
-- Understand how to parse a Figma design to create a UI.
-- Using Grid and Flexbox to place elements in the page.
-- Build a personal portfolio site.
-- Use images and backgrounds to enhance the look of the website.
-- Setting up linters and Github Actions to automate linters errors check
-- Using Github Pages to deploy my project online
+|              Desktop version                     |                  
+---------------------------------------------------
+![](https://user-images.githubusercontent.com/54015740/123253767-74dff180-d4b3-11eb-99b0-3337e1a4e374.png)
+
+|              Mobile version                       |
+----------------------------------------------------
+![](https://user-images.githubusercontent.com/54015740/123253771-75788800-d4b3-11eb-8639-d57342eb6f09.png)
+
+# My Portfolio Bootstrap Version Project
+------
+
+> This project aimed at setting up a bootstrap version for mobile and desktop version of my personal portfolio and the following objectives were expected:
+
+- Understand the concept of CSS frameworks
+- Use documentation for CSS frameworks.
 
 Additional description about the project and its features.
 
 ## Built With
+---
 
-- HTML and CSS
+- HTML and CSS framework(Bootstrap)
 
-## Getting Started
-
-**Requirements**
+## Requirements
+---
 
 - HTML and Bootstrap
 - Github Pages
@@ -31,10 +41,13 @@ Additional description about the project and its features.
 
 ## Authors
 
-👤 **Author1**
+👤 **Sylvestre Pagkeu**
 
-- Sylvestre: [@pasytchangwa](https://github.com/pasytchangwa)
-- Microverse: [@microversenic](https://github.com/microverseinc)
+- Github: [@pasytchangwa](https://github.com/pasytchangwa)
+
+👤 **Sheyla Pozo**
+
+- Github: [@sheylaPozo](https://github.com/sheylaPozo)
 
 ## 🤝 Contributing
 

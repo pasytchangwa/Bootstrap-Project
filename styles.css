@@ -7,11 +7,12 @@
 header {
   height: 100vh;
   background-image: url(image/images-main/headershapes-desktop.svg);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: bottom left;
 }
 
-.headline-container{
+.headline-container {
   /* background-image: url(image/images-main/headebg-desktop.svg); */
   background-size: cover;
   background-position: bottom left;
@@ -32,4 +33,5 @@ footer {
 .footer-content {
   background-image: url(./image/images-main/background-shapes.svg);
   background-size: cover;
+  background-repeat: no-repeat;
 }

@@ -8,9 +8,13 @@
 
 *💛 Portfolio Preview image💛*
 
-Desktop version | Mobile version
--------------------- | ----------------------
-![capture](https://user-images.githubusercontent.com/54015740/123253767-74dff180-d4b3-11eb-99b0-3337e1a4e374.png)![capture2](https://user-images.githubusercontent.com/54015740/123253771-75788800-d4b3-11eb-8639-d57342eb6f09.png)
+              Desktop version                      |                 
+-------------------------------------------------- | 
+![](https://user-images.githubusercontent.com/54015740/123253767-74dff180-d4b3-11eb-99b0-3337e1a4e374.png)
+
+|              Mobile version                       |
+----------------------------------------------------
+![](https://user-images.githubusercontent.com/54015740/123253771-75788800-d4b3-11eb-8639-d57342eb6f09.png)
 
 # My Portfolio Bootstrap Version Project
 ------

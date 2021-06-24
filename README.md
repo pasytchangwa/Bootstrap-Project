@@ -3,7 +3,7 @@
 # Project online link
 ---
 
-![Live Version](https://pasytchangwa.github.io/Bootstrap-Project/)
+[Live Version](https://pasytchangwa.github.io/Bootstrap-Project)
 
 ---
 

@@ -4,22 +4,18 @@
 
 https://pasytchangwa.github.io/My-Portfolio/
 
-# My Portfolio Project
+# My Portfolio Bootstrap Version Project
 
-> This project aimed at setting up a mobile and desktop version of my personal portfolio and the following objectives were expected:
+> This project aimed at setting up a bootstrap version for mobile and desktop version of my personal portfolio and the following objectives were expected:
 
-- Understand how to parse a Figma design to create a UI.
-- Using Grid and Flexbox to place elements in the page.
-- Build a personal portfolio site.
-- Use images and backgrounds to enhance the look of the website.
-- Setting up linters and Github Actions to automate linters errors check
-- Using Github Pages to deploy my project online
+- Understand the concept of CSS frameworks
+- Use documentation for CSS frameworks.
 
 Additional description about the project and its features.
 
 ## Built With
 
-- HTML and CSS
+- HTML and CSS framework(Bootstrap)
 
 ## Getting Started
 

@@ -2,7 +2,7 @@
 
 # Project online link
 
-https://pasytchangwa.github.io/My-Portfolio/
+Please [CLICK HERE](https://pasytchangwa.github.io/My-Portfolio/) to access the online version.
 
 # My Portfolio Project
 
